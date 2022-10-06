@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(36, 13, 13);
+    color: azure;
+    position: fixed;
+    z-index: 999;
+}
+
+
+/* .nav--logo {
+} */
+
+.logo img {
+    margin: 5px;
+    margin-top: 5px;
+    height: 4rem;
+}
+
+.nav--content {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(36, 13, 13);
+    ;
+    color: azure;
+    font-size: larger;
+}
+
+
+/* .nav--btn {
+    height: ;
+  } */
+
+.nav--element a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav--element a:hover {
+    color: #29d9d5;
+}
+
+.nav--btn {
+    margin-right: 4vw;
+    background-color: black;
+    color: #29d9d5;
+    border: 2px solid #29d9d5;
+    height: 50%;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.nav--btn {
+    margin-right: 4vw;
+    background-color: black;
+    color: #29d9d5;
+    border: 2px solid #29d9d5;
+    height: 50%;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.nav--btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav--btn a:hover {
+    color: #29d9d5;
+}
