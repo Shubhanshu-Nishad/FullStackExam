@@ -13,18 +13,13 @@ nav {
     height: 10vh;
     background-color: rgb(36, 13, 13);
     color: azure;
-    /* position: fixed;
-    z-index: 999; */
+    /* position: fixed; */
+    /* z-index: 999; */
 }
 
-
-/* .nav--logo {
-} */
-
 .logo img {
-    margin: 5px;
-    margin-top: 5px;
-    height: 4rem;
+    height: 50px;
+    width: 225px;
 }
 
 .nav--content {
@@ -37,15 +32,9 @@ nav {
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(36, 13, 13);
-    ;
     color: azure;
     font-size: larger;
 }
-
-
-/* .nav--btn {
-    height: ;
-  } */
 
 .nav--element a {
     text-decoration: none;
@@ -59,8 +48,8 @@ nav {
 .nav--btn {
     margin-right: 4vw;
     background-color: rgb(36, 13, 13);
-    color: #29d9d5;
-    border: 2px solid #29d9d5;
+    color: cyan;
+    border: 2px solid cyan;
     height: 50%;
     border-radius: 20px;
     width: 100px;
@@ -104,7 +93,7 @@ nav {
 }
 
 img {
-    height: 200px;
+    height: 250px;
     width: 300px;
     border-radius: 20px;
 }
@@ -112,4 +101,89 @@ img {
 img:hover {
     transition: 0.5s;
     filter: grayscale();
+}
+
+.sectionTwo {
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+}
+
+.footer--img {
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.footer--img:hover {
+    filter: none;
+}
+
+.sec2--container {
+    color: white;
+    font-size: larger;
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.sec2--container button {
+    margin-right: 4vw;
+    background-color: rgb(36, 13, 13);
+    color: cyan;
+    border: 2px solid cyan;
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.footersec {
+    height: 40vh;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footersec h1 {
+    text-align: center;
+}
+
+.footersec span {
+    color: rgba(255, 253, 253, 0.856);
+}
+
+.photography {}
+
+.photography h1 {
+    margin-bottom: 10px;
+}
+
+.newsletter input {
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 2px solid cyan;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.newsletter button {
+    margin-right: 4vw;
+    background-color: rgb(36, 13, 13);
+    color: cyan;
+    border: 2px solid cyan;
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
 }
